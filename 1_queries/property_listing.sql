@@ -6,3 +6,4 @@ FROM  properties
       GROUP BY properties.id
         ORDER BY cost_per_night ASC
         limit 10;
+
