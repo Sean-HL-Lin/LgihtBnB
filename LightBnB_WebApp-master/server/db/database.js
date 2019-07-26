@@ -129,11 +129,6 @@ const getAllProperties = function(options, limit = 10) {
     queryString = queryString.substring(0, queryString.length-4)
   }
 
-
-  
-
-
-
   // 4
   queryParams.push(limit);
   queryString += `
